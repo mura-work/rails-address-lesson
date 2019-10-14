@@ -4,7 +4,7 @@ var infoWindow
 var center = {
 	lat: 34.7019399,
 	lng: 135,51002519999997
-}
+};
 function initMap() {
 	map = new google.maps.Map(document.getElementById('sample'), {
 		center: center,
